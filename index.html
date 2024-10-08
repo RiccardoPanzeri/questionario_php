@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./pages/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./pages/score_handler.php" method="post">
+        <div class="formDiv">
+            <h2 class="text">Domanda 1: Quale di questi è un linguaggio di programmazione lato server?</h2>
+            <div class="radioDiv">
+                <label for="js"  class="para">JavaScript</label>
+                <input type="radio" name="answer1" id="js" value="js" required>
+            </div>
+            <div class="radioDiv">
+                <label for="php"  class="para">PHP</label>
+                <input type="radio" name="answer1" value="PHP" id="php" required>
+            </div>
+            <div class="radioDiv">
+                <label for="html"  class="para">HTML</label>
+                <input type="radio" name="answer1" value="HTML" id="html" required>
+            </div>
+        </div>
+        <div class="formDiv">
+            <h2 class="text">Domanda 2: Quale, tra i seguenti, può essere indicato come "Client"?</h2>
+            <div class="radioDiv">
+                <label for="apache" class="para">Apache</label>
+                <input type="radio" name="answer2" value="Apache" id="apache" required>
+            </div>
+            <div class="radioDiv">
+                <label for="html" class="para">Una pagina HTML</label>
+                <input type="radio" name="answer2" value="HTML" id="html" required>
+            </div>
+            <div class="radioDiv">
+                <label for="browser" class="para">Il Browser</label>
+                <input type="radio" name="answer2" value="Il Browser" id="browser" required>
+            </div>
+        </div>    
+            <div class="formDiv">
+                <h2 class="text">Domanda 3: Cos'è, di fatto, una variabile superglobale?</h2>
+                <div class="radioDiv">
+                    <label for="associative" class="para">Un Array Associativo</label>
+                    <input type="radio" name="answer3" value="Un Array Associativo" id="associative" required>
+                </div>
+                <div class="radioDiv">
+                    <label for="object" class="para">Un Oggetto</label>
+                    <input type="radio" name="answer3" value="Un Oggetto" id="object" required>
+                </div>
+                <div class="radioDiv">
+                    <label for="function" class="para">Una Funzione</label>
+                    <input type="radio" name="answer3" value="Una Funzione" id="function" required>
+                </div>
+            </div>
+            <div class="buttonDiv">
+                <button type="submit" class="button">Conferma</button>
+            </div>
+        
+    </form>
+</body>
+</html>
